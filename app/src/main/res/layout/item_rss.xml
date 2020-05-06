@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="128dp"
+    >
+
+    <ImageView
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:background="@drawable/bg_item"
+        android:scaleType="centerCrop"></ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ở Việt Nam có nghề đi cày... trên biển, 1 vốn 8 lời"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Người dân nơi đây cày cuốc trên bãi biển không phải để trồng cấy mà để bắt một loài ngao to bự, giá trị cao. "
+            android:layout_marginTop="10dp"></TextView>
+    </LinearLayout>
+
+</LinearLayout>
